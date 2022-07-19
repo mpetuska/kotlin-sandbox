@@ -1,5 +1,5 @@
 package kmp
 
-fun main(vararg args: String) {
+fun commonMain(vararg args: String) {
   println(args.toList())
 }

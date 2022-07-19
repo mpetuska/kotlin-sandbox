@@ -9,6 +9,20 @@ kotlin {
     browser()
     nodejs()
   }
+  linuxX64 {
+    compilations["main"].apply {
+      cinterops {
+        create("gtk4")
+        create("adw")
+      }
+    }
+    binaries {
+      executable {
+        entryPoint = "kmp.main"
+      }
+    }
+  }
+
   sourceSets {
     named("commonTest") {
       dependencies {
