@@ -5,8 +5,13 @@ plugins {
 kotlin {
   js {
     useCommonJs()
-    browser()
+    browser {
+      testTask {
+        useKarma()
+      }
+    }
     nodejs()
+    binaries.library()
   }
   sourceSets {
     named("test") {

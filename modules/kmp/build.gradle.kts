@@ -6,8 +6,13 @@ kotlin {
   jvm()
   js {
     useCommonJs()
-    browser()
+    browser {
+      testTask {
+        useKarma()
+      }
+    }
     nodejs()
+    binaries.library()
   }
   linuxX64 {
     compilations["main"].apply {

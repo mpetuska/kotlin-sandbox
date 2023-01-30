@@ -3,3 +3,5 @@ build/
 .idea/
 .fleet/
 .vscode/
+local.properties
+lint.xml
