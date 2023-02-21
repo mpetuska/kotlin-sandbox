@@ -1,0 +1,13 @@
+{
+  "version": "0.15.5",
+  "stacks": {
+    "ctd-infra": {
+      "name": "ctd-infra",
+      "constructPath": "ctd-infra",
+      "workingDirectory": "stacks/ctd-infra",
+      "synthesizedStackPath": "stacks/ctd-infra/cdk.tf.json",
+      "annotations": [],
+      "dependencies": []
+    }
+  }
+}

@@ -13,3 +13,4 @@ A clean and minimal setup for kotlin experiments.
   - [kjs](./modules/kjs) - kotlin/js sandbox
   - [kjvm](./modules/kjvm) - kotlin/jvm sandbox
   - [kmp](./modules/kmp) - kotlin/multiplatform sandbox
+  - [ts](./modules/ts) - typescript sandbox

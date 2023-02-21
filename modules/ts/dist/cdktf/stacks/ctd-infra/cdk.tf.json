@@ -1,0 +1,23 @@
+{
+  "//": {
+    "metadata": {
+      "backend": "local",
+      "stackName": "ctd-infra",
+      "version": "0.15.5"
+    },
+    "outputs": {
+    }
+  },
+  "terraform": {
+    "backend": {
+      "local": {
+        "path": "/home/mpetuska/Projects/kotlin-sandbox/modules/ts/terraform.ctd-infra.tfstate"
+      }
+    }
+  },
+  "variable": {
+    "ctdinfra_myvar_E59DDCD8": {
+      "description": "Hey there"
+    }
+  }
+}
