@@ -5,15 +5,14 @@ plugins {
 kotlin {
   js {
     useCommonJs()
-//    browser { testTask { useKarma() } }
-    nodejs()
+    browser { testTask { useKarma() } }
+//    nodejs()
     binaries.executable()
   }
   sourceSets {
     named("main") {
       dependencies {
-        implementation(npm("cdktf", "^0.15.5"))
-        implementation(npm("constructs", "^10.1.255"))
+        implementation(npm("@midzer/tobii", "2.5.0"))
       }
     }
     named("test") {
