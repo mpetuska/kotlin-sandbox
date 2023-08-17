@@ -8,7 +8,7 @@
     "start": "ts-node ./src/index.ts"
   },
   "dependencies": {
-    "cdktf": "^0.15.5",
+    "cdktf": "^0.18.0",
     "constructs": "^10.1.255"
   },
   "devDependencies": {
